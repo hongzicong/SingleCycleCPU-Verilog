@@ -83,7 +83,7 @@ module main(
     
     // TODO
     wire [31:0] JMP;
-    assign JMP = {out_pc_1[31:28], out_pc_2[27:2], 0, 0};
+    assign JMP = {out_pc_1[31:28], out_pc_2[27:0], 1'b0, 1'b0};
     
     assign nowInstruction = out_pc_2;
     assign nextAddress = in_pc;

@@ -11,9 +11,9 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="524775000fs"></ZoomStartTime>
-      <ZoomEndTime time="1215775003fs"></ZoomEndTime>
-      <Cursor1Time time="769775000fs"></Cursor1Time>
+      <ZoomStartTime time="1402800000fs"></ZoomStartTime>
+      <ZoomEndTime time="2093800004fs"></ZoomEndTime>
+      <Cursor1Time time="1764800000fs"></Cursor1Time>
    </zoom_setting>
    <WVObjectSize size="33" />
    <wvobject db_ref_id="1" fp_name="/test/CLK" type="logic">
@@ -114,10 +114,6 @@
       <obj_property name="ElementShortName">RegDst</obj_property>
       <obj_property name="ObjectShortName">RegDst</obj_property>
    </wvobject>
-   <wvobject db_ref_id="1" fp_name="/test/main/Register/CLK" type="logic">
-      <obj_property name="ElementShortName">CLK</obj_property>
-      <obj_property name="ObjectShortName">CLK</obj_property>
-   </wvobject>
    <wvobject db_ref_id="1" fp_name="/test/main/Register/ReadReg1" type="array">
       <obj_property name="ElementShortName">ReadReg1[4:0]</obj_property>
       <obj_property name="ObjectShortName">ReadReg1[4:0]</obj_property>
@@ -149,5 +145,10 @@
    <wvobject db_ref_id="1" fp_name="/test/main/Register/register" type="array">
       <obj_property name="ElementShortName">register[0:31][31:0]</obj_property>
       <obj_property name="ObjectShortName">register[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/test/main/RAM/memory" type="array">
+      <obj_property name="ElementShortName">memory[0:127][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[0:127][7:0]</obj_property>
    </wvobject>
 </wave_config>

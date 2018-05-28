@@ -152,7 +152,7 @@
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="SrcSet" Val="sources_1"/>
         <Option Name="XSimWcfgFile" Val="$PPRDIR/test_behav.wcfg"/>
-        <Option Name="xsim.simulate.runtime" Val="2500ns"/>
+        <Option Name="xsim.simulate.runtime" Val="3000ns"/>
       </Config>
     </FileSet>
   </FileSets>
